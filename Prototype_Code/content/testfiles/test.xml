@@ -1,0 +1,27 @@
+<doc>
+    <window window_id="1344597947725" open_time="1344597947725" close_time="1344597977241" max_simult_tabs="2">
+        <tab tab_id="1" open_time="1344597948093" close_time="1344597977239">
+            <page page_id="1344597955455" coming_time="1344597955457" leaving_time="1344597977239" title="BBC - Homepage" url="http://www.bbc.com/" favicon_path="http://www.bbc.co.uk/favicon.ico" active_time="5000" focus_time="6109" visit_time="21782" comment=""/>
+        </tab>
+        <tab tab_id="2" open_time="1344597957308" close_time="1344597977240">
+            <page page_id="1344597962157" coming_time="1344597962159" leaving_time="1344597977240" title="CNN.com International - Breaking, World, Business, Sports, Entertainment and Video News" url="http://edition.cnn.com/" favicon_path="http://edition.cnn.com/favicon.ico" active_time="5000" focus_time="10823" visit_time="15081" comment=""/>
+        </tab>
+    </window>
+    <window window_id="1344597926827" open_time="1344597926827" close_time="1344598225000" max_simult_tabs="2">
+        <tab tab_id="1" open_time="1344597927056" close_time="1344598225000">
+            <page page_id="1344597932874" coming_time="1344597932876" leaving_time="1344598115967" title="Google" url="https://www.google.com/" favicon_path="https://www.google.com/favicon.ico" active_time="10000" focus_time="13916" visit_time="183091" comment=""/>
+            <page page_id="1344598115968" coming_time="1344598115970" leaving_time="1344598225000" title="Welcome to Facebook - Log In, Sign Up or Learn More" url="https://www.facebook.com/" favicon_path="https://s-static.ak.facebook.com/rsrc.php/yi/r/q9U99v3_saj.ico" active_time="0" focus_time="3486" visit_time="109030" comment=""/>
+        </tab>
+        <tab tab_id="2" open_time="1344597936148" close_time="1344598225000">
+            <page page_id="1344597940930" coming_time="1344597940932" leaving_time="1344598225000" title="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more" url="http://www.amazon.com/" favicon_path="http://www.amazon.com/favicon.ico" active_time="0" focus_time="38157" visit_time="284068" comment=""/>
+        </tab>
+    </window>
+    
+    <history>
+        <page page_id="1344598115968" coming_time="1344598115970" leaving_time="1344598225000" title="Welcome to Facebook - Log In, Sign Up or Learn More" url="https://www.facebook.com/" favicon_path="https://s-static.ak.facebook.com/rsrc.php/yi/r/q9U99v3_saj.ico" active_time="0" focus_time="3486" visit_time="109030" comment=""/>
+        <page page_id="1344597962157" coming_time="1344597962159" leaving_time="1344597977240" title="CNN.com International - Breaking, World, Business, Sports, Entertainment and Video News" url="http://edition.cnn.com/" favicon_path="http://edition.cnn.com/favicon.ico" active_time="5000" focus_time="10823" visit_time="15081" comment=""/>
+        <page page_id="1344597955455" coming_time="1344597955457" leaving_time="1344597977239" title="BBC - Homepage" url="http://www.bbc.com/" favicon_path="http://www.bbc.co.uk/favicon.ico" active_time="5000" focus_time="6109" visit_time="21782" comment=""/>
+        <page page_id="1344597940930" coming_time="1344597940932" leaving_time="1344598225000" title="Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more" url="http://www.amazon.com/" favicon_path="http://www.amazon.com/favicon.ico" active_time="0" focus_time="38157" visit_time="284068" comment=""/>
+        <page page_id="1344597932874" coming_time="1344597932876" leaving_time="1344598115967" title="Google" url="https://www.google.com/" favicon_path="https://www.google.com/favicon.ico" active_time="10000" focus_time="13916" visit_time="183091" comment=""/>
+    </history>
+</doc>

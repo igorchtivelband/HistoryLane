@@ -1,0 +1,37 @@
+
+<doc>
+    <window window_id="1344962521357" open_time="1344962521357" close_time="1344962543224" max_simult_tabs="2">
+        <tab tab_id="1" open_time="1344962521712" close_time="1344962543221">
+            <page page_id="1344962527700" coming_time="1344962527701" leaving_time="1344962543221" title="BBC - Homepage" url="http://www.bbc.com/" favicon_path="http://www.bbc.co.uk/favicon.ico" active_time="0" focus_time="4800" visit_time="15520" comment=""/>
+        </tab>
+        <tab tab_id="2" open_time="1344962532499" close_time="1344962543222">
+            <page page_id="1344962540795" coming_time="1344962540796" leaving_time="1344962543222" title="CNN.com International - Breaking, World, Business, Sports, Entertainment and Video News" url="http://edition.cnn.com/" favicon_path="http://edition.cnn.com/favicon.ico" active_time="0" focus_time="2427" visit_time="2426" comment=""/>
+        </tab>
+    </window>
+    <window window_id="1344962408502" open_time="1344962408502" close_time="1344962545816" max_simult_tabs="3">
+        <tab tab_id="1" open_time="1344962408740" close_time="1344962545814">
+            <page page_id="1344962417207" coming_time="1344962417209" leaving_time="1344962545813" title="Google" url="https://www.google.com/" favicon_path="https://www.google.com/favicon.ico" active_time="0" focus_time="6893" visit_time="128604" comment=""/>
+        </tab>
+        <tab tab_id="2" open_time="1344962424100" close_time="1344962545815">
+            <page page_id="1344962538517" coming_time="1344962538518" leaving_time="1344962545815" title="Lenta.ru: Главное:" url="http://lenta.ru/" favicon_path="http://img.lenta.ru/i/favicon.ico" active_time="0" focus_time="7297" visit_time="7297" comment=""/>
+        </tab>
+        <tab tab_id="3" open_time="1344962484222" close_time="1344962545816">
+            <page page_id="1344962496319" coming_time="1344962496322" leaving_time="1344962545816" title="Microsoft Corporation: Software, Smartphones, Online, Games, Cloud Computing, IT Business Technology, Downloads" url="http://www.microsoft.com/en-us/default.aspx" favicon_path="undefined" active_time="0" focus_time="11688" visit_time="49494" comment=""/>
+        </tab>
+    </window>
+    
+    <window window_id="1344852232258" open_time="1344852232258" close_time="1344962728000" max_simult_tabs="1">
+        <tab tab_id="1" open_time="1344852233093" close_time="1344962728000">
+            <page page_id="1344854412838" coming_time="1344854412839" leaving_time="1344962728000" title="BBC - Homepage" url="http://www.bbc.com/" favicon_path="http://www.bbc.co.uk/favicon.ico" active_time="0" focus_time="3912" visit_time="108315161" comment=""/>
+        </tab>
+    </window>
+    
+    <history>
+        <page page_id="1344962540795" coming_time="1344962540796" leaving_time="1344962543222" title="CNN.com International - Breaking, World, Business, Sports, Entertainment and Video News" url="http://edition.cnn.com/" favicon_path="http://edition.cnn.com/favicon.ico" active_time="0" focus_time="2427" visit_time="2426" comment=""/>
+        <page page_id="1344962538517" coming_time="1344962538518" leaving_time="1344962545815" title="Lenta.ru: Главное:" url="http://lenta.ru/" favicon_path="http://img.lenta.ru/i/favicon.ico" active_time="0" focus_time="7297" visit_time="7297" comment=""/>
+        <page page_id="1344962527700" coming_time="1344962527701" leaving_time="1344962543221" title="BBC - Homepage" url="http://www.bbc.com/" favicon_path="http://www.bbc.co.uk/favicon.ico" active_time="0" focus_time="4800" visit_time="15520" comment=""/>
+        <page page_id="1344962496319" coming_time="1344962496322" leaving_time="1344962545816" title="Microsoft Corporation: Software, Smartphones, Online, Games, Cloud Computing, IT Business Technology, Downloads" url="http://www.microsoft.com/en-us/default.aspx" favicon_path="undefined" active_time="0" focus_time="11688" visit_time="49494" comment=""/>
+        <page page_id="1344962417207" coming_time="1344962417209" leaving_time="1344962545813" title="Google" url="https://www.google.com/" favicon_path="https://www.google.com/favicon.ico" active_time="0" focus_time="6893" visit_time="128604" comment=""/>
+        <page page_id="1344854412838" coming_time="1344854412839" leaving_time="1344962728000" title="BBC - Homepage" url="http://www.bbc.com/" favicon_path="http://www.bbc.co.uk/favicon.ico" active_time="0" focus_time="3912" visit_time="108315161" comment=""/>
+    </history>
+</doc>

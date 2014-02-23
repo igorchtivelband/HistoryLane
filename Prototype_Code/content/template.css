@@ -1,0 +1,52 @@
+
+#history_table {
+				font-family:Tahoma, Geneva, sans-serif;
+                font-size: 70%;
+	}
+        
+
+#dialogBox {
+				font-family:Tahoma, Geneva, sans-serif;
+                font-size: 70%; 
+                border:2px solid #a1a1a1;
+                border-radius:10px;
+	}
+
+#header {
+                background-color: #D1D1D1; 
+                /*background-color:#E09B1B;*/
+                border: 1px black solid;
+                width:1234px;
+	
+}
+
+#header div input {
+                height: 17px;
+                font-family:Tahoma, Geneva, sans-serif;
+                font-size: 10px; 
+}
+
+.selected_cell
+{
+                color: #FF0000;
+}
+
+.unselected_cell
+{
+                color: #000000;
+}
+
+#menu {
+        border: 1px black solid;        
+}
+
+#kinect_container
+{
+      border: 1px black solid;          
+}
+
+#tab_div
+{
+                border-right: 1px black solid; 
+}
+

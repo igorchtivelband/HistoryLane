@@ -1,0 +1,4 @@
+content datacollector content/
+
+overlay chrome://browser/content/browser.xul chrome://datacollector/content/datacollector.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://datacollector/skin/skin.css

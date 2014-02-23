@@ -1,0 +1,74 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="template.css" />
+		<title>Visual History Tool</title>
+	</head>
+
+
+<body onload="initiateContent();" onContextMenu="return false;">
+
+<div id='container'>
+	
+<div id='header'>
+	<div align='right' style="vertical-align: middle">
+		<!--<input type='button' value='Week' onclick="onTimeButtonClick('Week')"/>-->
+		<input type='button' value='Last Hour' onclick="onTimeButtonClick('Hour')" id='hour_button'/>
+		<input type='button' value='Last Day' onclick="onTimeButtonClick('Day')" disabled="disabled" />
+		<input type='button' value='Test' onclick="onTestButtonClick()"  />
+	</div>
+</div>
+
+<div id='menu' style='width:242px; height:529px; float:left; overflow: auto'>
+	<table id="history_table">
+	</table>
+</div>
+
+<div id='kinect_container_wrapper'>
+	<div id='kinect_container' style='background-color:#FFFFFF;width:990px;height:420px;overflow:auto;'/>
+</div>
+
+<div id='tab_div' style='background-color:#CCFFFF;width:992px;height:110px;overflow:auto; position: absolute; top: 450px; left: 251px'></div>
+
+<label id="xmlLabel" hidden="true"></label>
+<!--<input type="button" id="history_button" onclick="fillTheTable();" hidden="false"/>-->
+
+ 
+ <div id="divDialog" style="margin: 0px; padding: 0px; position: fixed; right: 0px;
+                    top: 0px; width: 100%; height: 100%; background-color: #333333; z-index: 30001;
+                    opacity: .8; filter: alpha(opacity=70); display: none;" >
+                    <div id="dialogBox" style="position: absolute; top: 40%; left: 40%; background-color:#D1D1E0; width:20%" align="center">
+		    <p align="center">Choose parameters to show</p>
+		    <p><label>Active Time</label><input id="active_checkbox" name="checkbox" type="checkbox" value="Active"/></p>
+		    <p><label>Focus Time</label><input id="focus_checkbox" name="checkbox" type="checkbox" value="Focus"/></p>
+		    <p><label>Visit Time</label><input id="visit_checkbox" name="checkbox" type="checkbox" value="Visit"/></p>
+		    <p>Add Comment<br/><textarea name="comment" id="comment" style="height: 40%; height: 80%"></textarea></p>
+		    <input type='button' value='Close' onclick="PageParametersController.hideDialogWindow()"/>
+		    <label id='page_id_buffer' style="display: none"></label>
+		    </div>
+                </div>
+ 
+ 
+ <img id="thumbnail_image" alt="Thumbnail" STYLE="position:absolute; TOP:35px; LEFT:170px;display: none" border="3" />
+		
+		<script src="./content_scripts/constants.js" type="text/javascript"></script>
+		<script src="./content_scripts/event_handlers.js" type="text/javascript"></script>
+		<script src="./content_scripts/category_detecter.js" type="text/javascript"></script>
+		<script src="./content_scripts/script.js" type="text/javascript"></script>
+		<script src="./content_scripts/xml.js" type="text/javascript"></script>
+		<script src="./content_scripts/kinetic.js" type="text/javascript"></script>
+		<script src="./content_scripts/visual_figures.js" type="text/javascript"></script>
+		<script src="./content_scripts/tab_analysis_visual_figures.js" type="text/javascript"></script>
+		<script src="./content_scripts/tab_analysis.js" type="text/javascript"></script>
+		<script src="./content_scripts/main_canvas_manipulations.js" type="text/javascript"></script>
+		<script src="./content_scripts/search_logic.js" type="text/javascript"></script>
+		<script type="text/javascript" src="./content_scripts/js/jquery-1.7.2.min.js"></script>
+
+		<script type="application/javascript">
+			window.addEventListener("myevent",myeventListener,false);
+			window.addEventListener('DOMMouseScroll', onWheelEvent, false);
+			window.addEventListener("searchEvent",searchEventListener,false);
+			initiateEvents();
+		</script>
+</body>
+</html>

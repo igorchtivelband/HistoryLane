@@ -1,0 +1,25 @@
+<?xml version="1.0"?>  
+<?xml-stylesheet href="skin/skin.css" type="text/css"?>               
+<overlay id="Scrapper-Overlay"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+
+<script type="application/x-javascript" src="chrome://datacollector/content/datacollector.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/xml.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/persistence.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/config.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/drawcontent.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/logger.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/fetcher.js" />
+<script type="application/x-javascript" src="chrome://datacollector/content/search.js" />
+
+<toolbox id="navigator-toolbox">
+	<toolbar id="DataCollectorToolbar" toolbarname="DataCollector Toolbar" pack='center' align="center">
+		<label value="Visual History Toolbar" align="center" id="datalabel" />
+		<button label="Show History" oncommand="drawCanvas();"/>
+		<textbox id="SearchTextBox" cols="1" size="50" />
+		<button id="search_button" label="Search" oncommand="onSearchButtonClick();"/>
+	</toolbar>
+</toolbox>
+
+</overlay>
+

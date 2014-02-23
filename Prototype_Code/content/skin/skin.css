@@ -1,0 +1,12 @@
+button.plain { 
+border: 2px; 
+}
+
+#datalabel
+{
+	disabled:true;
+}
+
+#myextension-button {
+  list-style-image: url("redbutton.png");
+}

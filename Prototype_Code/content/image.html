@@ -1,0 +1,66 @@
+
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      canvas {
+        border: 1px solid #9C9898;
+      }
+    </style>
+    <script src="./content_scripts/kinetic.js" type="text/javascript"></script>
+    <script>
+      window.onload = function() {
+        var stage = new Kinetic.Stage({
+          container: "container",
+          width: 578,
+          height: 200
+        });
+        var layer = new Kinetic.Layer();
+		
+        var imageObj = new Image();
+        imageObj.onload = function() {
+          var yoda = new Kinetic.Image({
+            x: 140,
+            y: stage.getHeight() / 2 - 59,
+            image: imageObj,
+            width: 106,
+            height: 118
+          });
+		  alert(2);
+
+          var filteredYoda = new Kinetic.Image({
+            x: 320,
+            y: stage.getHeight() / 2 - 59,
+            image: imageObj,
+            width: 106,
+            height: 118
+          });
+
+          // add the shape to the layer
+          layer.add(yoda);
+          layer.add(filteredYoda);
+
+          // add the layer to the stage
+          stage.add(layer);
+
+          // apply grayscale filter to second image
+          filteredYoda.applyFilter({
+            filter: Kinetic.Filters.Grayscale,
+            callback: function() {
+              layer.draw();
+            }
+          });
+        };
+        imageObj.src = "http://www.html5canvastutorials.com/demos/assets/yoda.jpg";
+		alert(1);
+      };
+
+    </script>
+  </head>
+  <body>
+    <div id="container"></div>
+  </body>
+</html>

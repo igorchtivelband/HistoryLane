@@ -1,0 +1,29 @@
+
+<doc>
+    <category name='Search' default_color='#C2C2A3' active_color='#8A8A5C' focus_color='#999966'>
+        <domain>google.com</domain>
+        <domain>msn.com</domain>
+        <domain>yahoo.com</domain>
+        <domain>aol.com</domain>
+        <domain>ask.com</domain>
+    </category>
+    
+    <category name='Social Networks' default_color='#B2CCCC' focus_color='#85ADAD' active_color='#669999' >
+        <domain>facebook.com</domain>
+        <domain>twitter.com</domain>
+        <domain>linkid.com</domain>
+        <domain>livejournal.com</domain>
+    </category>
+        
+    <category name='Retail sites' default_color='#FFECA3' focus_color='#FFE066' active_color='#FFCC00'  >
+        <domain>ebay.com</domain>
+        <domain>amazon.com</domain>
+        <domain>bestbuy.com</domain>
+    </category>
+    
+    <category name='News' default_color='#FFD494' focus_color='#FFB84D' active_color='#FF9900'>
+        <domain>cnn.com</domain>
+        <domain>cbs.com</domain>
+        <domain>bbc.com</domain>
+    </category>
+</doc>
